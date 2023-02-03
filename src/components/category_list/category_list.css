@@ -1,0 +1,6 @@
+.category_list_div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0px 100px;
+}

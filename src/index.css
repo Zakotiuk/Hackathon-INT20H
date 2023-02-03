@@ -1,13 +1,28 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: SFPRO_Regular;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face{
+  font-family: "SFPRO_Regular";
+  src: local("SFPRODISPLAYREGULAR"),
+    url("./fonts/SFPRODISPLAYREGULAR.ttf") format("truetype");
+}
+@font-face{
+  font-family: "SFPRO_Medium";
+  src: local("SFPRODISPLAYMEDIUM"),
+    url("./fonts/SFPRODISPLAYMEDIUM.ttf") format("truetype");
+}
+/* @font-face{
+  font-family: "SFPRO_Medium";
+  src: local("SFPRODISPLAYMEDIUM"),
+    url("./fonts/SFPRODISPLAYREGULAR.ttf") format("truetype");
+} */

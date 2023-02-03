@@ -1,0 +1,28 @@
+.category_item_div{
+    border-radius: 50px;
+    border: 1px solid black;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.category_item_div.non_active{
+    background-color: white;
+    color: black;
+}
+
+.category_item_div.active{
+    background-color: black;
+    color: white;
+}
+
+.category_item_div img{
+    height: 28px;
+    width: 28px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
