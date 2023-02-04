@@ -19,12 +19,15 @@ const Category_list = ({setCategoryQuery}) =>{
         fetching();
     }, []);
     return(
-        <div className="category_list_div">
-            {
-                category.map((item, index) => 
-                    <Category_item index={index} setCategoryQuery={setUserCategoryQuery} item={item} key={index}></Category_item>
-                )
-            }
+        <div className="category_list_full_div">
+            <span className="fnt_fml_bbs fnt_sz_36 logo">Please select a dish</span>
+            <div className="category_list_div">
+                {
+                    category.map((item, index) => 
+                        <Category_item index={index} setCategoryQuery={setUserCategoryQuery} item={item} key={index}></Category_item>
+                    )
+                }
+            </div>
         </div>
     )
 }

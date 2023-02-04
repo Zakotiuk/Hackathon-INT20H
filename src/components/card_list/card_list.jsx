@@ -28,7 +28,7 @@ const Card_list = ({category}) =>{
             }
             </div>
             <div className="anotation_div">
-                <span className="title">Seafood</span>
+                <span className="title fnt_fml_bbs">Seafood</span>
             </div>
 
         </div>

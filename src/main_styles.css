@@ -1,8 +1,17 @@
-.fnt_sz_20{
-    font-size: 20px;
+.fnt_sz_10{
+    font-size: 10px;
+}
+.fnt_sz_13{
+    font-size: 13px;
 }
 .fnt_sz_16{
     font-size: 16px;
+}
+.fnt_sz_20{
+    font-size: 20px;
+}
+.fnt_sz_36{
+    font-size: 36px;
 }
 
 .fnt_fml_reg{
@@ -11,4 +20,8 @@
 
 .fnt_fml_med{
     font-family: SFPRO_Medium;
+}
+
+.fnt_fml_bbs{
+    font-family: 'Bebas Neue', cursive;
 }

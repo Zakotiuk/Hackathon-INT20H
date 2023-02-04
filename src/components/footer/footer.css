@@ -1,0 +1,43 @@
+.footer_bacg_div{
+    background: url("../../images/footer.png") no-repeat center center;
+    background-size: cover;
+    height: 50vh;
+}
+
+.footer_div{
+    display: flex;
+    width: 50%;
+    margin-left: 200px;
+    padding-top: 80px;
+}
+
+.footer_div .social_media_div{
+    width: 170px;
+    text-align: left;
+    padding-top: 50px;
+}
+
+.footer_div .social_media_div .fnt_sz_13{
+    color: #B19173;
+    font-weight: 100;
+}
+.social_media_div .social_media{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.social_media_div .social_media .icon{
+    height: 25px;
+}
+
+.org_hr{
+    border: 1px solid #ECC6B2;
+}
+
+.footer_div .info_div{
+    display: flex;
+    flex-direction: column;
+    color: #B19173;
+    margin-top: 50px;
+}

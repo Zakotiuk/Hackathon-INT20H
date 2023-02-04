@@ -1,0 +1,51 @@
+.head_part_div{
+    background: url("../../images/header.png") no-repeat center center;
+    background-size:contain;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.head_part_div hr{
+    border: 1px solid #D0D0D0;
+    width: 90%;
+}
+
+.head_part_div .title{
+    font-size: 80px;
+    display: block;
+    padding-top: 140px;
+    padding-left: 90px;
+    width: 50% !important;
+    text-align: left;
+}
+
+.head_part_div .title .orange{
+    color: #D67340;
+}
+
+.head_part_div .buttons .dark_org_btn{
+    width: 256px;
+    border-radius: 30px;
+    background-color: #D67340;
+    border: none;
+    padding: 10px 0px;
+    color: white;
+    margin-right: 30px;
+}
+
+.head_part_div .buttons{
+    padding-left: 90px;
+    padding-bottom: 70px;
+}
+
+.head_part_div .buttons .light_org_btn{
+    width: 256px;
+    border-radius: 30px;
+    background-color: #FFF5F0;
+    border: none;
+    padding: 10px 0px;
+    color: #D67340;
+}
