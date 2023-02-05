@@ -38,4 +38,5 @@
     background-color: white;
     border-radius: 30px;
     border: 1px solid black;
+    cursor: pointer;
 }

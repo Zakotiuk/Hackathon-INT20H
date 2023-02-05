@@ -3,7 +3,7 @@ import Additional_service from "../../services/Additional_service";
 import { useFetching } from "../../services/useFetching";
 import Category_item from "../category_item/category_item";
 import './category_list.css'
-const Category_list = ({setCategoryQuery}) =>{
+const Category_list = ({setCategoryQuery, title}) =>{
     const [category, setCategory] = useState([]);
     // дописати тут
     const [fetching, isLoading, error] = useFetching(async()=> 
@@ -19,8 +19,11 @@ const Category_list = ({setCategoryQuery}) =>{
         fetching();
     }, []);
     return(
-        <div className="category_list_full_div">
-            <span className="fnt_fml_bbs fnt_sz_36 logo">Please select a dish</span>
+        <div id="categories" className="category_list_full_div">
+            {
+                title &&
+                <span className="fnt_fml_bbs fnt_sz_36 logo">{title}</span>
+            }
             <div className="category_list_div">
                 {
                     category.map((item, index) => 

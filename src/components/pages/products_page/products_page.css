@@ -1,0 +1,11 @@
+.products_page_div .title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.products_page_div .dark_org_btn{
+    margin-right: 100px;
+    margin-top: 40px;
+}

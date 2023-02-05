@@ -5,7 +5,7 @@ import Card_item from "../card_item/card_item";
 import './card_list.css'
 const Card_list = ({category}) =>{
     const [recipe, setRecipe] = useState([]);
-        // дописати тут
+        // дописати тут // перенести це звідси, щоб компонент був реюзебл
     const [fetching, isLoading, error] = useFetching(async()=> 
         {
             const response = await Recipe_service.getRecipe(category);

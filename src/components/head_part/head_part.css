@@ -26,7 +26,7 @@
     color: #D67340;
 }
 
-.head_part_div .buttons .dark_org_btn{
+.dark_org_btn{
     width: 256px;
     border-radius: 30px;
     background-color: #D67340;
@@ -34,6 +34,7 @@
     padding: 10px 0px;
     color: white;
     margin-right: 30px;
+    cursor: pointer;
 }
 
 .head_part_div .buttons{
@@ -48,4 +49,5 @@
     border: none;
     padding: 10px 0px;
     color: #D67340;
+    cursor: pointer;
 }

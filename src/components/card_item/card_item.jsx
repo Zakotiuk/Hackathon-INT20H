@@ -1,6 +1,7 @@
 import React from "react";
 import './card_item.css';
 import '../../main_styles.css'
+import { Link } from "react-router-dom";
 
 const Card_item = ({item}) =>{
     return(
@@ -12,7 +13,9 @@ const Card_item = ({item}) =>{
                         <span className="fnt_sz_20">{item.strMeal}</span>
                         <span className="fnt_sz_16">A good morning snack</span>
                     </div>
-                    <button className="btn fnt_sz_16">Click on me</button>                
+                    <Link to="/dish">
+                        <button className="btn fnt_sz_16">Cook</button>
+                    </Link>
                 </div>
             </div>
             

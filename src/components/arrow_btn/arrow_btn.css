@@ -1,0 +1,11 @@
+.arrow_btn_div{
+    display: flex;
+    align-items: center;
+    margin: 70px 0px 0px 100px;
+}
+.icon{
+    height: 30px;
+    width: 70px;
+    float: left;
+    margin-right: 35px;
+}

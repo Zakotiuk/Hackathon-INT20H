@@ -1,0 +1,9 @@
+.dish_page_div{
+    display: flex;
+    flex-direction: column;
+}
+
+.divider{
+    display: flex;
+    margin-top: 60px;
+}

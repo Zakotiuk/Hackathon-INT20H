@@ -10,8 +10,18 @@
 .fnt_sz_20{
     font-size: 20px;
 }
+.fnt_sz_24{
+    font-size: 24px;
+}
 .fnt_sz_36{
     font-size: 36px;
+}
+.fnt_sz_64{
+    font-size: 64px;
+}
+
+.clr_org{
+    color: #D67340;
 }
 
 .fnt_fml_reg{

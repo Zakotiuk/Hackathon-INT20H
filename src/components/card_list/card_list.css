@@ -1,5 +1,6 @@
 .card_list_full_div{
     display: flex;
+    margin-bottom: 100px;
 }
 
 .card_list_div{
