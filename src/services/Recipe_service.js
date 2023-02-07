@@ -11,7 +11,6 @@ export default class Recipe_service{
     }
     static async getDish(id){
         const response = await axios.post('https://api.junonian.earth/api/v1/Dish/GetDishById', { id : id});
-        console.log(response.data)
         return response.data;
     }
 }

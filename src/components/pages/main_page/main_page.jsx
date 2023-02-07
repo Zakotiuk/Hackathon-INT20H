@@ -22,7 +22,6 @@ const Main_page = () =>{
             setCategories(response);
             const responseRec = await Recipe_service.getRecipes(categoryQuery);
             setRecipes(responseRec);
-            console.log("Change");
         }   
     )
     useEffect(()=>{

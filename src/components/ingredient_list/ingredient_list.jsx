@@ -6,9 +6,6 @@ const Ingredient_list = ({items, missItems}) =>{
     return(
         <div className="ingredient_list_div">
             <span className="fnt_sz_20 clr_org">List of products</span>
-            {
-                console.log(missItems)
-            }
             <div className="list_products">
                 {
                     items.map((item, index) =>{
