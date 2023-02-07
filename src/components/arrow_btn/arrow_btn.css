@@ -3,9 +3,21 @@
     align-items: center;
     margin: 70px 0px 0px 100px;
 }
+
+@media (max-width: 797px){
+    .arrow_btn_div{
+        margin: 70px 0px 0px 40px;
+    }
+}
 .icon{
     height: 30px;
     width: 70px;
     float: left;
     margin-right: 35px;
+}
+
+@media (max-width: 797px){
+    .arrow_btn_div .title{
+        font-size: 32px;
+    }
 }

@@ -6,7 +6,7 @@ const Arrow_btn = ({title, path}) =>{
     return(
         <div className="arrow_btn_div">
             <Link to={path}><img className="icon" src={require("../../images/arrow.png")}/></Link>
-            <span className="fnt_sz_64 fnt_fml_bbs">{title}</span>
+            <span className="fnt_sz_64 fnt_fml_bbs title">{title}</span>
         </div>
     )
 }

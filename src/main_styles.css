@@ -35,3 +35,8 @@
 .fnt_fml_bbs{
     font-family: 'Bebas Neue', cursive;
 }
+
+.loader{
+    display: flex;
+    justify-content: center;
+}

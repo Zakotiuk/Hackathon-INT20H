@@ -10,6 +10,12 @@
     margin-left: 200px;
     padding-top: 80px;
 }
+@media (max-width: 797px){
+    .footer_div{
+        margin-left: 0px;
+        width: 100%;
+    }
+}
 
 .footer_div .social_media_div{
     width: 170px;

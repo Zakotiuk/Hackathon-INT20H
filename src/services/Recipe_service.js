@@ -1,9 +1,17 @@
 import axios from "axios";
 
 export default class Recipe_service{
-    static async getRecipe(type){
-        const response = await axios.get('https://www.themealdb.com/api/json/v1/1/filter.php?c='+type);
-        console.log(response.data.meals);
-        return response.data.meals;
+    static async getRecipes(type){
+        const response = await axios.post('https://api.junonian.earth/api/v1/Dish/GetDishesByCategory', { name : type});
+        return response.data.items;
+    }
+    static async getDishesByProducts(products){
+        const response = await axios.post('https://api.junonian.earth/api/v1/Dish/GetDishesByProducts', { items : products});
+        return response.data.items;
+    }
+    static async getDish(id){
+        const response = await axios.post('https://api.junonian.earth/api/v1/Dish/GetDishById', { id : id});
+        console.log(response.data)
+        return response.data;
     }
 }

@@ -11,6 +11,15 @@
     align-items: stretch;
     margin-right: 80px;
     margin-left: 80px;
+    width: 100%;
+}
+
+
+@media (max-width: 797px){
+    .card_list_div{
+        margin-right: 40px;
+        margin-left: 40px;
+    }
 }
 
 .anotation_div{
@@ -31,4 +40,10 @@
     margin-top: 50px;
     position: sticky;
     top: 50px;
+}
+
+@media (max-width: 797px){
+    .anotation_div{
+        display: none;
+    }
 }

@@ -1,3 +1,9 @@
 .products_list_div{
     margin: 50px 150px 50px 150px;
 }
+
+@media (max-width: 797px){
+    .products_list_div{
+        margin: 0px 20px;
+    }
+}

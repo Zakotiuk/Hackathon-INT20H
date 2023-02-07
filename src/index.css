@@ -21,8 +21,3 @@ code {
   src: local("SFPRODISPLAYMEDIUM"),
     url("./fonts/SFPRODISPLAYMEDIUM.ttf") format("truetype");
 }
-/* @font-face{
-  font-family: "SFPRO_Medium";
-  src: local("SFPRODISPLAYMEDIUM"),
-    url("./fonts/SFPRODISPLAYREGULAR.ttf") format("truetype");
-} */

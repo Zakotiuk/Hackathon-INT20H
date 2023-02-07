@@ -7,3 +7,9 @@
     display: flex;
     margin-top: 60px;
 }
+
+@media (max-width: 797px){
+    .divider{
+        flex-wrap: wrap;
+    }
+}

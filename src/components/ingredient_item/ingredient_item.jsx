@@ -1,13 +1,14 @@
 import React from "react";
 import './ingredient_item.css'
 
-const Ingredient_item = ({index, isIngr}) =>{
+const Ingredient_item = ({item, isIngr, missingProd, measure}) =>{
     return(
             <div className={isIngr ? "ingredient_item_div fnt_sz_20" : "ingredient_item_div"}>
-                Lemon
+                {item.name}
+                <span className="fnt_sz_13">{item.amount} {item.measure == "" ? "items" : item.measure}</span>
                     {
-                        index == 1 &&
-                        <span className="fnt_sz_10">You do not have this product :(</span>
+                        missingProd &&
+                        <span className="fnt_sz_10">{missingProd?.amount} {measure == "" ? "items" : measure} is missing</span>
                     }
             </div>
     )

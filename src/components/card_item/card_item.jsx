@@ -7,13 +7,13 @@ const Card_item = ({item}) =>{
     return(
         <div className="card_item_div">
             <div className="border_div">
-                <img className="card_item_img" src={item.strMealThumb}/>
+                <img className="card_item_img" src={item.image}/>
                 <div className="info_div">
                     <div className="description">
-                        <span className="fnt_sz_20">{item.strMeal}</span>
-                        <span className="fnt_sz_16">A good morning snack</span>
+                        <span className="fnt_sz_20">{item.name}</span>
+                        <span className="fnt_sz_16">Difficulty : {item.difficulty}</span>
                     </div>
-                    <Link to="/dish">
+                    <Link to={"/id?=" + `${item.id}`}>
                         <button className="btn fnt_sz_16">Cook</button>
                     </Link>
                 </div>

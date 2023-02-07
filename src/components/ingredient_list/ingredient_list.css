@@ -2,3 +2,13 @@
     width: 450px;
     margin-right: 50px;
 }
+@media (max-width: 797px){
+    .ingredient_list_div{
+        margin: 0px 20px;
+    }
+}
+
+.ingredient_list_div .list_products{
+    height: 65vh !important;
+    overflow: auto;
+}

@@ -5,12 +5,35 @@
     margin: 0px 100px;
 }
 
+@media (max-width: 797px){
+    .category_list_div{
+        flex-wrap: wrap;
+        margin: 0px;
+        flex-direction: column;
+        height: 100px;
+        overflow: scroll;
+        width: 100%;
+    }
+}
+
 .category_list_full_div{
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
+}
+
+@media (max-width: 797px){
+    .category_list_full_div{
+        overflow: scroll;
+    }
 }
 
 .category_list_full_div .logo{
     margin: 70px 100px 50px 0px;
+}
+
+@media (max-width: 797px){
+    .category_list_full_div .logo{
+        margin-top: 0px;
+    }
 }
